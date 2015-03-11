@@ -25,7 +25,7 @@
   		font-size: 20px;
   		font-weight: 500;
   		padding:12px 0 4px 20px;
-  		margin:0 0 1em 0;
+  		margin:0;
 	}
 	h3 {
   		font-size:18px;
@@ -109,11 +109,13 @@
 	<footer class="w-section ftr">
 		<p class="ftr-text">thanks for being awesome</p>
 </footer>
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://daks2k3a4ib2z.cloudfront.net/5500886d689b6e08198c3878/js/webflow.35e0b8ca4.js"></script>
 <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
-<script type="text/javascript" src="http://julian.com/research/blast/build/jquery.blast.js"></script>
+
 <script type="text/javascript" src="http://julian.com/research/velocity/build/velocity.js"></script>
+<script type="text/javascript" src="http://julian.com/research/velocity/build/velocity.ui.js"></script>
+<script type="text/javascript" src="http://julian.com/research/blast/build/jquery.blast.js"></script>
 <script type="text/javascript">
 
 	$(".page-title").blast()
@@ -124,7 +126,7 @@
 					backwards: true, 
 					display: null, 
 					complete: function() {
-						$("span").eq(0).find(".blast")
+						$(".page-title").eq(0).find(".blast")
 							.velocity("fadeIn", { delay: 500, stagger: 30, drag: true })
 							.velocity("transition.slideDownIn", { delay: 1000, stagger: 20, drag: true, display: "inline-block", complete: function() {
 									$("span").eq(0).blast(false);
