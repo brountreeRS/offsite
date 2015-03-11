@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html data-wf-site="5500886d689b6e08198c3878" data-wf-page="5500886d689b6e08198c3879">
+<head>
+<meta charset="utf-8">
+<title>omri-staff-offsite</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="Webflow">
+<link rel="stylesheet" type="text/css" href="https://daks2k3a4ib2z.cloudfront.net/5500886d689b6e08198c3878/css/omri-staff-offsite.webflow.b4eab4366.css">
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+<script>WebFont.load({
+		google: {
+			families: ["Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic"]
+		}
+	});
+</script>
+<script type="text/javascript" src="https://daks2k3a4ib2z.cloudfront.net/0globals/modernizr-2.7.1.js"></script>
+<link rel="shortcut icon" type="image/x-icon" href="https://daks2k3a4ib2z.cloudfront.net/img/favicon.ico">
+<link rel="apple-touch-icon" href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png">
+<style type="text/css">
+	body {
+		font-family: Lato, sans-serif;
+  		font-weight: 300;
+	}
+	.page-title {
+  		font-size: 20px;
+  		font-weight: 500;
+  		padding:12px 0 4px 20px;
+  		margin:0 0 1em 0;
+	}
+	h3 {
+  		font-size:18px;
+  		font-weight: 300;
+	}
+
+</style>
+</head>
+<body>
+	<header class="w-section hdr">
+		<h1 class="page-title">Helion Developer Platform Leadership Offsite - March 11, 2015</h1>
+	</header>
+	<main class="w-section main">
+		<div class="w-row">
+			<div class="w-col w-col-4">
+				<h3>Engineering Hotness Goals</h3>
+
+				<ul>
+					<li>hot fix release in 24 hours</li>
+					<li>all releases are done like hotfixes</li>
+					<li>one build process to rule them all!</li>
+					<li>updates succeed 100% of the time build to build and from last release to build</li>
+					<li>efficency improvements in envs
+						<ul>
+							<li>access to esoteric env in under 24 hours</li>
+							<li>acceess to standard in under 10 min</li>
+							<li>env mangagement tops out at 3 people</li>
+						</ul>
+					</li>
+					<li>Installer works 100% of the time in 3 hours or less</li>
+					<li>90% cumulitive code coverage, 100% scenario coverage  as release criteria
+						<ul>
+							<li>80% found will be at or before the gate</li>
+							<li>measure bugs found AT the gate</li>
+							<li>RCA all bugs that escape the gate</li>
+						</ul>
+						<ul>
+							<li>50% of bugs cuaght in dev</li>
+							<li>20% caught by CI/CD</li>
+							<li>20% caught by Nightly</li>
+							<li>10% by release activities</li>
+						</ul>
+						<ul>
+							<li>feature branch checkin: 70%</li>
+							<li>Only successful passing all gates can code be merged to MASTER</li>
+						</ul>
+					</li>
+					<li>net new Code does not get checked in with code coverage at 70%</li>
+					<li>Every checkin increases the code coverage</li>
+					<li>Last release stats: 127 bugs were not caught at or before the gate
+						<ul>
+							<li>In 3 months, the ratio of bugs caught by CI/CD to be 50/50</li>
+							<li>In 6 months the ratio is 5 to 1</li>
+						</ul>
+					</li>
+					<li>A developer can gain 80% reasonable confidence that change will not regress the system in under 2 hours</li>
+					<li>at all times be able to report the overall capacity of the org for internal and external focused projects</li>
+					<li>NPS for developer productivity up over current baseline  by 20 points in 3 months</li>
+					<li>Do not increase ratio of non customer facing engineering systems and products</li>
+				</ul>
+			</div>
+			<div class="w-col w-col-4">
+				<h3>Implementation Details</h3>
+				<ul>
+					<li>intentional usage of branches and preservation of MASTER</li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			<div class="w-col w-col-4">
+				<h3>Parking Lot</h3>
+				<ul>
+					<li>how to defend against the CI/CD system becoming a crutch</li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+		</div>
+	</main>
+	<footer class="w-section ftr">
+		<p class="ftr-text">thanks for being awesome</p>
+</footer>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://daks2k3a4ib2z.cloudfront.net/5500886d689b6e08198c3878/js/webflow.35e0b8ca4.js"></script>
+<!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+<script type="text/javascript" src="http://julian.com/research/blast/build/jquery.blast.js"></script>
+<script type="text/javascript" src="http://julian.com/research/velocity/build/velocity.js"></script>
+<script type="text/javascript">
+
+	$(".page-title").blast()
+				.velocity("fadeOut", { 
+					duration: 350, 
+					stagger: 30, 
+					drag: true, 
+					backwards: true, 
+					display: null, 
+					complete: function() {
+						$("span").eq(0).find(".blast")
+							.velocity("fadeIn", { delay: 500, stagger: 30, drag: true })
+							.velocity("transition.slideDownIn", { delay: 1000, stagger: 20, drag: true, display: "inline-block", complete: function() {
+									$("span").eq(0).blast(false);
+									// $("#btnUndo").trigger("click");
+								}
+							});
+					}
+				})
+
+</script>
+
+
+</body>
+</html>
